@@ -4,7 +4,7 @@ from bidict import bidict
 from cemento.draw_io.read_diagram import ReadDiagram
 from cemento.tree import Tree
 
-from connector.data_ref import DataRef
+from visto.connector.data_ref import DataRef
 
 
 class BaseOntology:

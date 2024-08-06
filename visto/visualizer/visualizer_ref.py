@@ -18,7 +18,7 @@ class VisualizerRef:
         if config_path.exists():
             config.read(config_path)
         else:
-            with pkg_resources.open_text("visualizer", "config.ini") as config_file:
+            with pkg_resources.open_text("visto", "config.ini") as config_file:
                 config.read_file(config_file)
 
         self._config = config

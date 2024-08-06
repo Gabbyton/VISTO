@@ -10,13 +10,13 @@ import dash_cytoscape as cyto
 import networkx as nx
 from dash import Dash, Input, Output, State, callback, dcc, html, no_update
 
-from visualizer.build_graph import build_graph
-from visualizer.components import navbar, no_node_modal
-from visualizer.plotter import plotter_modal
-from visualizer.selector import selector
-from visualizer.serializers import read_json_graph
-from visualizer.stylesheet import default_stylesheet
-from visualizer.visualizer_ref import VisualizerRef
+from visto.visualizer.build_graph import build_graph
+from visto.visualizer.components import navbar, no_node_modal
+from visto.visualizer.plotter import plotter_modal
+from visto.visualizer.selector import selector
+from visto.visualizer.serializers import read_json_graph
+from visto.visualizer.stylesheet import default_stylesheet
+from visto.visualizer.visualizer_ref import VisualizerRef
 
 NUM_PANELS = 6
 NUM_COLS = 2
@@ -365,5 +365,5 @@ for layout_idx in range(NUM_PANELS):
         return new_elements
 
 
-if __name__ == "__main__":
+def main():
     app.run(debug=True)

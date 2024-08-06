@@ -31,10 +31,13 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["visualizer", "connector"]
+packages = ["visto", "visto.visualizer", "visto.connector"]
 
 [project.urls]
 Homepage = "https://github.com/Gabbyton/VISTO"
 
 [project.license]
 text = "BSD-3-Clause"
+
+[project.scripts]
+mycommand = "visto.app:main"

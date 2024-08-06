@@ -1,6 +1,5 @@
-recursive-include *.ini
-recursive-include ontologies *.drawio
-exclude visualizer/__pycache__/*
-exclude visualizer/*.egg-info
-exclude connector/__pycache__/*
-exclude connector/*.egg-info
+recursive-include visto *.ini
+recursive-include visto/ontologies *.drawio
+recursive-include visto/assets *.css
+exclude visto/__pycache__/*
+exclude visto/*.egg-info

@@ -1,6 +1,6 @@
 import networkx as nx
 
-from connector.base_ontology import BaseOntology
+from visto.connector.base_ontology import BaseOntology
 
 
 class Ontology(BaseOntology):

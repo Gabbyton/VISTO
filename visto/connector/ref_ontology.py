@@ -1,4 +1,4 @@
-from connector.base_ontology import BaseOntology
+from visto.connector.base_ontology import BaseOntology
 
 
 class RefOntology(BaseOntology):

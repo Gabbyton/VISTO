@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 from dash import Input, Output, State, callback, dcc, html
 
-from visualizer.serializers import read_json_graph
+from visto.visualizer.serializers import read_json_graph
 
 input_pane = html.Div(
     [

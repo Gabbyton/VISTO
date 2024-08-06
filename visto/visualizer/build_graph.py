@@ -9,9 +9,9 @@ from bs4 import BeautifulSoup as bs
 from cemento.draw_io.read_area_diagram import ReadAreaDiagram
 from networkx.exception import NodeNotFound
 
-from connector.ontology import Ontology
-from connector.ref_ontology import RefOntology
-from visualizer.visualizer_ref import VisualizerRef
+from visto.connector.ontology import Ontology
+from visto.connector.ref_ontology import RefOntology
+from visto.visualizer.visualizer_ref import VisualizerRef
 
 # TODO: convert to detecting primary relationships from a config file and treating all others as secondary or ontology-related
 SECONDARY_RELS = ["mds:place"]
