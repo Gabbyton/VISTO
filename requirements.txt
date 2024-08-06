@@ -1,0 +1,11 @@
+dash
+dash_bootstrap_components
+dash_cytoscape
+networkx
+visualizer
+bidict
+pandas
+beautifulsoup4
+matplotlib
+plotly
+cemento

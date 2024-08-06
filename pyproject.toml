@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mds-visto"
+version = "0.0.1"
+authors = [
+  { name="Gabriel Obsequio Ponon", email="gop2@case.edu" },
+]
+description = "An application to visualize ontologies."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "dash>=2.17.1",
+  "dash_bootstrap_components>=1.6.0",
+  "dash_cytoscape>=1.0.1",
+  "networkx>=3.2.1",
+  "visualizer>=0.0.10",
+  "bidict>=0.23.1",
+  "pandas>=2.2.2",
+  "beautifulsoup4>=4.12.3",
+  "matplotlib>=3.9.0",
+  "plotly>=5.22.0",
+  "cemento>=0.5.6"
+]
+
+[tool.setuptools]
+packages = ["visualizer", "connector"]
+
+[project.urls]
+Homepage = "https://github.com/Gabbyton/VISTO"
+
+[project.license]
+text = "BSD-3-Clause"

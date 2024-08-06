@@ -1,0 +1,6 @@
+recursive-include *.ini
+recursive-include ontologies *.drawio
+exclude visualizer/__pycache__/*
+exclude visualizer/*.egg-info
+exclude connector/__pycache__/*
+exclude connector/*.egg-info
