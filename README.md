@@ -8,6 +8,12 @@ This is a python application that can be used to visualize ontologies on a level
 
 One can refer to the `requirements.txt` file to install prerequisite packages. The package is still currently being bundled.
 
+## Build
+
+This repo is already configured to building the package. Please make sure to do the following prior to running the build:
+1. Copy-paste `assets` and `app.py` into the `visto` folder.
+1. Install relevant `setup-tools` packages.
+
 ## Operation
 
 You can clone the repository and run the following in the terminal inside the repo folder:

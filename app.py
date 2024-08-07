@@ -367,3 +367,6 @@ for layout_idx in range(NUM_PANELS):
 
 def main():
     app.run(debug=True)
+
+if __name__ == "__main__":
+    main()
