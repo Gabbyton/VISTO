@@ -40,4 +40,4 @@ Homepage = "https://github.com/Gabbyton/VISTO"
 text = "BSD-3-Clause"
 
 [project.scripts]
-mycommand = "visto.app:main"
+navisto = "visto.app:main"
