@@ -1,0 +1,71 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="vkJY0Xp0giWZl135O7xC">
+    <mxGraphModel dx="1366" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0Pb_XiitWDEO3SrwRD2-5" value="~E-hutch [hutch|hutch_]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-630" width="690" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="d0Pb_XiitWDEO3SrwRD2-1" value="~beam preparation [setup|setup_]" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;gradientColor=none;fillColor=none;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="-590" width="590" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ksybn0mzoWiPXOCULdz-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4Ksybn0mzoWiPXOCULdz-1" target="4Ksybn0mzoWiPXOCULdz-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZfc2F88kOo2WcK1y5L1-11" value="mds:adopt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4Ksybn0mzoWiPXOCULdz-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.0938" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ksybn0mzoWiPXOCULdz-1" value="FSY motor&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;[motor|motor_]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="365" y="-555" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ksybn0mzoWiPXOCULdz-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4Ksybn0mzoWiPXOCULdz-2" target="4Ksybn0mzoWiPXOCULdz-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZfc2F88kOo2WcK1y5L1-12" value="mds:adopt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4Ksybn0mzoWiPXOCULdz-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.1352" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-fPld1UHfxB-Tlbqoat-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4Ksybn0mzoWiPXOCULdz-2" target="4Ksybn0mzoWiPXOCULdz-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1-fPld1UHfxB-Tlbqoat-2" value="mds:place" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1-fPld1UHfxB-Tlbqoat-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.08" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ksybn0mzoWiPXOCULdz-2" value="FSX motor&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;[motor|motor_]&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="365" y="-385" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmZn-Lp3FEnvz-gJKHRc-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4Ksybn0mzoWiPXOCULdz-3" target="4Ksybn0mzoWiPXOCULdz-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmZn-Lp3FEnvz-gJKHRc-5" value="mds:bind" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="ZmZn-Lp3FEnvz-gJKHRc-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.2154" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmZn-Lp3FEnvz-gJKHRc-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="4Ksybn0mzoWiPXOCULdz-3" target="4Ksybn0mzoWiPXOCULdz-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmZn-Lp3FEnvz-gJKHRc-7" value="mds:bind" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="ZmZn-Lp3FEnvz-gJKHRc-6" vertex="1" connectable="0">
+          <mxGeometry x="0.1286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ksybn0mzoWiPXOCULdz-3" value="FS motor stack&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;[motor_stack|stack_]&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="170" y="-455" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ksybn0mzoWiPXOCULdz-15" value="motor y_" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="535" y="-555" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ksybn0mzoWiPXOCULdz-17" value="motor x_" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="540" y="-385" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
