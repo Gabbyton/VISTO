@@ -30,7 +30,7 @@ Open draw.io. Click on the rectangle shape and move the created rectangle on the
 > **Note**: If you cannot see the shapes panel on the left, click the more shapes button and check the general box on the left of the window that pops up before clicking Apply.
 
 Double-click the rectangle to edit the text inside. Create, name, move, and connect two rectangles to mimic the setup as shown:
-(Insert Image here)
+![tutorial-1a](https://github.com/Gabbyton/VISTO/blob/master/assets/images/tutorial-1a.png)
 
 To connect rectangles, hover over the perimeter of a rectangle and click on one of the handles and drag towards a handle on another shape.
 
@@ -56,11 +56,11 @@ If not already done, please clone the VISTO repository and install its dependenc
 
 Using the same tools as in Tutorial 1, attempt to copy the following image:
 
-(insert image here)
+![tutorial-2a](https://github.com/Gabbyton/VISTO/blob/master/assets/images/tutorial-2a.png)
 
 #### Few Things to Note
 
-(annotated image)
+![tutorial-2b](https://github.com/Gabbyton/VISTO/blob/master/assets/images/tutorial-2b.png)
 
 Relationships above the line are between classes of things.
 Relationships below the line are between instances of classes
@@ -93,7 +93,8 @@ Now that you have templates, a good question to ask is, how do I fill them up fo
 
 Start by drawing a draw.io diagram once again with the following content:
 
-(insert image)
+
+![tutorial-3a](https://github.com/Gabbyton/VISTO/blob/master/assets/images/tutorial-3a.png)
 
 Looking closely, the names on the bubbles and boxes have some funny brackets. This is because bubbles by themselves do not mean anything to the VISTO package. We have to link each of the bubbles to an ontology that it is related to. Thus the naming pattern is:
 
@@ -109,7 +110,7 @@ Note the use of `~` in the boxes. This is because there is no native way in draw
 
 > **Tip**: to align the area boxes up, please click the following button on the right panel under format as shown in the image:
 
-(insert image)
+![tutorial-3b](https://github.com/Gabbyton/VISTO/blob/master/assets/images/tutorial-3b.png)
 
 ### Step 3
 
